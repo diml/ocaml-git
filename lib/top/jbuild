@@ -1,0 +1,7 @@
+(library
+ ((name        git_top)
+  (public_name git.top)
+  (wrapped false)
+  (modes (byte))
+  (libraries (git compiler-libs.toplevel))
+  (preprocess no_preprocessing)))

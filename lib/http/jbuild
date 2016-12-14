@@ -1,0 +1,6 @@
+(library
+ ((name        git_http)
+  (public_name git.http)
+  (wrapped false)
+  (libraries (git lwt cohttp.lwt uri.services))
+  (preprocess no_preprocessing)))

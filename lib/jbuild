@@ -1,0 +1,6 @@
+(library
+ ((name        git)
+  (public_name git)
+  (wrapped false)
+  (libraries (mstruct logs ocamlgraph uri lwt hex astring fmt))
+  (preprocess no_preprocessing)))

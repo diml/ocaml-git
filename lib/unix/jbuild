@@ -1,0 +1,6 @@
+(library
+ ((name        git_unix)
+  (public_name git.unix)
+  (wrapped false)
+  (libraries (git git.http lwt cohttp.lwt lwt.unix conduit.lwt-unix zip nocrypto))
+  (preprocess no_preprocessing)))
